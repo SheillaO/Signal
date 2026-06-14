@@ -1,7 +1,6 @@
 # Signal 📡
  
-**Most teams lose feature requests in Slack threads and email chains.  
-Signal is a lightweight public feedback board that captures them in one place;no backend, no framework, no build step.**
+**Most teams lose feature requests in Slack threads and email chains. Signal is a lightweight public feedback board that captures them in one place;no backend, no framework, no build step.**
 
 ---
  
@@ -23,7 +22,7 @@ signal/
 └── index.js        # all state, data fetching, and DOM rendering
 ```
  
-All application state lives in a single array (`postsArray`). The UI is always a pure function of that array — every state change calls `renderPosts()`, which rebuilds the list from scratch. This is a simplified version of the unidirectional data flow pattern that React and Vue formalise: **state changes → render, never DOM → state.**
+All application state lives in a single array (`postsArray`). The UI is always a pure function of that array, every state change calls `renderPosts()`, which rebuilds the list from scratch. This is a simplified version of the unidirectional data flow pattern that React and Vue formalise: **state changes → render, never DOM → state.**
  
 ```
 User submits form
@@ -43,7 +42,7 @@ DOM reflects new state
  
 ## Data Layer
  
-Signal communicates with a REST API using the Fetch API and standard HTTP conventions — GET to read, POST to write.
+Signal communicates with a REST API using the Fetch API and standard HTTP conventions; GET to read, POST to write.
  
 **Reading existing requests:**
 ```js
@@ -157,7 +156,7 @@ Each item below is noted with what it would technically require:
 No install required.
  
 ```bash
-git clone https://github.com/yourusername/signal
+git clone https://github.com/SheillaO/Signal
 cd signal
 open index.html
 ```
@@ -166,13 +165,12 @@ Deployable to Netlify, GitHub Pages, or any static host by pointing the publish 
  
 ---
  
-## Deployment Notes
+---
+
+**Sheilla O.**  
+Product-Minded Developer | Nairobi, Kenya 🇰🇪
+
  
-Signal is a static site with no build step. Netlify configuration:
+💼 [LinkedIn](https://www.linkedin.com/in/sheillaolga/) • 🐙 [GitHub](https://github.com/SheillaO/Signal)
  
-| Setting | Value |
-|---|---|
-| Build command | *(leave blank)* |
-| Publish directory | *(leave blank or repo root)* |
-| Functions directory | *(leave blank)* |
- 
+---
