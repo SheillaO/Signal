@@ -1,12 +1,14 @@
 # Signal 📡
  
-**Most teams lose feature requests in Slack threads and email chains. Signal is a lightweight public feedback board that captures them in one place;no backend, no framework, no build step.**
+**Most teams lose feature requests in Slack threads and email chains. Signal is a lightweight public feedback board that captures them in one place; no backend, no framework, no build step.**
+
+
 
 ---
  
 ## Why This Exists
  
-Tools like Canny, Productboard, and Upvote.so solve this problem well but charge $30–$50 per seat per month. For indie makers, early-stage startups, and small teams, that cost doesn't justify the core need: a place to submit ideas and see what others have asked for.
+Tools like Canny, Productboard, and Upvote. So, solve this problem well, but charge $30–$50 per seat per month. For indie makers, early-stage startups, and small teams, that cost doesn't justify the core need: a place to submit ideas and see what others have asked for.
  
 Signal strips the problem down to its minimum viable data contract — a `title` and a `body` — and builds around that.
  
@@ -22,7 +24,7 @@ signal/
 └── index.js        # all state, data fetching, and DOM rendering
 ```
  
-All application state lives in a single array (`postsArray`). The UI is always a pure function of that array, every state change calls `renderPosts()`, which rebuilds the list from scratch. This is a simplified version of the unidirectional data flow pattern that React and Vue formalise: **state changes → render, never DOM → state.**
+All application states live in a single array (`postsArray`). The UI is always a pure function of that array, every state change calls `renderPosts()`, which rebuilds the list from scratch. This is a simplified version of the unidirectional data flow pattern that React and Vue formalise: **state changes → render, never DOM → state.**
  
 ```
 User submits form
