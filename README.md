@@ -2,7 +2,11 @@
  
 **Most teams lose feature requests in Slack threads and email chains. Signal is a lightweight public feedback board that captures them in one place; no backend, no framework, no build step.**
 
+<img width="1881" height="833" alt="Signal" src="https://github.com/user-attachments/assets/4d9159ef-a06a-4b64-baca-9b8b886f68ba" />
 
+<br><br>
+ 
+[**🚀 Explore the Live Demo**](https://signalboardhq.netlify.app/) | [**📂 View Codebase**](https://github.com/SheillaO/Signal)
 
 ---
  
